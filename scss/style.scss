@@ -864,67 +864,6 @@ h1, h2, h3, h4, h5,
 }
 
 
-/*--
-  Gallery start
---*/
-.gallery {
-  padding-bottom: 100px;
-
-  .owl-item {
-    overflow: hidden;
-    position: relative;
-  }
-
-  .block {
-    padding: 20px;
-
-    &:hover .gallery-overlay {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
-
-  .gallery-overlay {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    right: 15px;
-    top: 15px;
-    background: rgba(255, 255, 255, 0.85);
-    text-decoration: none;
-    color: inherit;
-    -webkit-transform: scale(.5);
-    transform: scale(.5);
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    z-index: 2;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-
-//galeria
-    .gallery-popup {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      background: #f9a743;
-      padding: 5px 10px;
-      border-radius: 40px;
-      width: 50px;
-      height: 50px;
-
-      i {
-        color: #fff;
-        font-size: 30px;
-        line-height: 40px;
-        display: inline-block;
-      }
-    }
-  }
-}
 
 
 //SKILLS--------------------
